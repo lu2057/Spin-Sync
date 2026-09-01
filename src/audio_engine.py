@@ -17,6 +17,9 @@ class AudioProducer:
         self.chunk_duration = 3.0  # Registriamo chunk di 3 secondi
         self.channels = 1          # Mono è sufficiente (e migliore) per l'analisi
         
+        # Troviamo il percorso assoluto della cartella principale del progetto
+        current_dir = os.path.dirname(os.path.abspath(__file__)) # cartella src/
+        project_root = os.path.dirname(current_dir)              # cartella Spin-Sync/
         # Percorso del modello pre-addestrato di pyAudioAnalysis 
         # (Speech vs Music - SVM con RBF kernel)
         self.model_path = "../pyAudioAnalysis/data/models/svm_rbf_sm"
