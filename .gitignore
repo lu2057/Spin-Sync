@@ -1,0 +1,30 @@
+## Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurazione e Segreti (FONDAMENTALE per i token Discogs)
+config.json
+.env
+secrets.yaml
+
+# File Audio Temporanei
+*.wav
+*.mp3
+*.flac
+*.ogg
+audio_chunks/
+
+# Modelli Machine Learning (PyAudioAnalysis)
+*.svm
+*.arff
+*.hmm
+
+# IDE
+.vscode/
+
