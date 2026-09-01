@@ -9,6 +9,7 @@ Uses some libraries and APIs such as ShazamIO, pyAudioAnalysis, Discogs and lrcl
 - Music recognition
 - Vinyl record recognition, done with Discogs
 - A beautiful GUI with a synced-up timestamp and lyrics widget
+
 I also intend to try and have a Discord integration, so you can show your friends what you're listening to!
 
 
