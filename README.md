@@ -5,6 +5,11 @@ A Python application that recognizes and syncs to vinyls heard from the device's
 Uses some libraries and APIs such as ShazamIO, inaSpeechSegmenter, Discogs and lrclib.
 **Will** feature a beautiful GUI displaying Record, timestamp and synced lyrics.
 
+## INSTALLATION:
+- Clone the repository: `git clone https://github.com/lu2057/Spin-Sync`
+- Install all the dependencies: `pip install -r requirements.txt`
+- Create a bin folder with ffmpeg.exe in it (if it gives an error)
+
 ## IN DEVELOPMENT FEATURES:
 - Music recognition
 - Vinyl record recognition, done with Discogs
