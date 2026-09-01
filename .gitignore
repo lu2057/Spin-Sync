@@ -12,6 +12,7 @@ __pycache__/
 config.json
 .env
 secrets.yaml
+bin/
 
 # File Audio Temporanei
 *.wav
@@ -19,11 +20,6 @@ secrets.yaml
 *.flac
 *.ogg
 audio_chunks/
-
-# Modelli Machine Learning (PyAudioAnalysis)
-*.svm
-*.arff
-*.hmm
 
 # IDE
 .vscode/
