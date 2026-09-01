@@ -2,7 +2,7 @@
 
 #### DISCLAIMER: This is a Work In Progress, meaning that it isn't feature-complete (0%)
 A Python application that recognizes and syncs to vinyls heard from the device's microphone.
-Uses some libraries and APIs such as ShazamIO, pyAudioAnalysis, Discogs and lrclib.
+Uses some libraries and APIs such as ShazamIO, inaSpeechSegmenter, Discogs and lrclib.
 **Will** feature a beautiful GUI displaying Record, timestamp and synced lyrics.
 
 ## IN DEVELOPMENT FEATURES:
