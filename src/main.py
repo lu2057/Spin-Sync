@@ -9,7 +9,8 @@ sys.path.append(project_root)
 # --------------------------
 
 import asyncio
-from audio_engine import AudioProducer
+# Ho scelto di usare attualmente il metodo del rms per rilevare la musica
+from audio_engine_rms import AudioProducer
 
 async def consumer_loop(coda_audio):
     """

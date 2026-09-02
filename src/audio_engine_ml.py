@@ -15,6 +15,12 @@ if cartella_ffmpeg not in os.environ["PATH"]:
     os.environ["PATH"] += os.pathsep + cartella_ffmpeg
 # ----------------------------------
 
+import shutil
+
+ffmpeg_path = shutil.which("ffmpeg")
+if not ffmpeg_path:
+    raise RuntimeError("FFmpeg not found in PATH")
+
 from inaSpeechSegmenter import Segmenter
 
 class AudioProducer:
